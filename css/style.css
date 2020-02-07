@@ -103,7 +103,7 @@
   #wrapper{
       width: 1000px;
       height: 550px;
-      background-image: url("https://unsplash.com/photos/jR4Zf-riEjI");
+      background-image: linear-gradient(rgba( 0,0,0,0.3),rgba( 0,0,0,0.3)),url("../img/background.jpg");
       margin: 20px auto;
   }
   
@@ -113,6 +113,7 @@
     height: 520px;
     background-image: url();
     margin: 0 auto;
+    background-color: white;
   }
   
   
