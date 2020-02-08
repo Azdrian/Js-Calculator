@@ -35,10 +35,15 @@
 -->
 <div id="wrapper">
   <div id="calculator">
-    <div id="output">
-        <p id="display">888</p>
+    <div id="display">
+          <div id=history>
+            <p id="history-value">8*8</p>
+          </div>
+          <div id="output">
+            <p id="output-value">66777</p>
+          </div>
     </div>
-    <div class="buttonContainer">  
+    <div id="keypad">  
       <button id="AC" class="operator" type="button">AC</button>
       <button id="clear"  class="operator" type="button">C</button>
       <button id="modulus"   class="operator" type="button">%</button>
@@ -60,6 +65,9 @@
       <button id="equals"  class="operator" type="button">=</button>
     </div>
 </div>
+
+
+
 </div>
 
   <script src="js/vendor/modernizr-3.8.0.min.js"></script>

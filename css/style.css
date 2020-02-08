@@ -98,29 +98,88 @@
      Author's custom styles
      ========================================================================== */
   body{
-    background-color: black;
+    background-color: #D32F2F;
   }
   #wrapper{
+     
       width: 1000px;
-      height: 550px;
-      background-image: linear-gradient(rgba( 0,0,0,0.3),rgba( 0,0,0,0.3)),url("../img/background.jpg");
+      height: 650px;
+     /*  background-image: linear-gradient(rgba( 0,0,0,0.3),rgba( 0,0,0,0.3)),url("../img/background.jpg"); */
       margin: 20px auto;
   }
   
   
   #calculator{
-    width: 320px;
-    height: 520px;
+    width: 290px;
+    height: 420px;
     background-image: url();
     margin: 0 auto;
+    background-color: #9E9E9E;;
+  }
+  
+  #display {
     background-color: white;
+    margin-bottom: 15px;
+    height:120px;
   }
   
-  #output {
-    border: 5 px solid red;
+  #keypad {
+    background-color: ;
+    height: 300px;
+    margin-top: 37px;
+    margin-left: 6.8px;
+    margin-bottom: 17px;
   }
-  
-  
+
+  #history{
+    height: 20px;
+    margin: 0 20px;
+    text-align: right;
+    font-size: 17px;
+    color: black;
+  }
+ #history-value {
+   padding-top: 19px;
+ }
+
+ #output-value {
+  padding-top: 8px;
+}
+ 
+  #output{
+    height: 60px;
+    margin: 10px 20px;
+    text-align: right;
+    color:red;
+    font-size: 34px;
+  }
+
+  button {
+    border-radius: 5px;
+    width: 50px;
+    height: 30px;
+    margin: 8.5px;
+    padding-left: 5px;
+    font-weight: 800;
+}
+
+#equals {
+width: 120px;
+background-color:#2196F3;
+}
+
+#modulus, #divide, #multiply, #subtract, #add{
+background-color: lightsteelblue;
+}
+#AC, #clear {
+ background: #D32F2F
+}
+
+.number, .operator{
+  cursor: pointer;
+}
+
+
   /* ==========================================================================
      Helper classes
      ========================================================================== */
