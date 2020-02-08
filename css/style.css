@@ -100,6 +100,7 @@
   body{
     background-color: #D32F2F;
   }
+
   #wrapper{
      
       width: 1000px;
@@ -107,7 +108,6 @@
      /*  background-image: linear-gradient(rgba( 0,0,0,0.3),rgba( 0,0,0,0.3)),url("../img/background.jpg"); */
       margin: 20px auto;
   }
-  
   
   #calculator{
     width: 290px;
@@ -138,6 +138,7 @@
     font-size: 17px;
     color: black;
   }
+  
  #history-value {
    padding-top: 19px;
  }
@@ -171,6 +172,7 @@ background-color:#2196F3;
 #modulus, #divide, #multiply, #subtract, #add{
 background-color: lightsteelblue;
 }
+
 #AC, #clear {
  background: #D32F2F
 }
